@@ -1,18 +1,144 @@
-# React + Vite
+Perfect! Here's a polished README with your live link:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌤️ Weather Dashboard
 
-Currently, two official plugins are available:
+A beautiful, responsive weather application built with React.js and Tailwind CSS that provides real-time weather information for cities worldwide.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Weather Dashboard](https://img.shields.io/badge/React-18.2.0-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC) ![Vite](https://img.shields.io/badge/Build-Vite-646CFF) ![Live](https://img.shields.io/badge/Live-Demo-brightgreen)
 
-## React Compiler
+## 🚀 Live Application
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### **[🌐 View Live Demo](https://weather-assignment-3.netlify.app/)**
 
-Note: This will impact Vite dev & build performances.
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Real-time Weather Data** - Get current weather conditions for major cities
+- **5-Day Forecast** - Plan ahead with detailed weather predictions
+- **Beautiful UI** - Modern, responsive design with gradient backgrounds
+- **Fast & Lightweight** - Built with Vite for optimal performance
+- **No API Key Required** - Uses free Open-Meteo API service
+- **Mobile Responsive** - Works perfectly on all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React 18, JSX
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **API:** Open-Meteo (Free weather API)
+- **Icons:** Lucide React
+- **Deployment:** Netlify
+
+## 📸 Preview
+
+![Weather Dashboard Preview](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=Weather+Dashboard+Live+Demo)
+
+## 🎯 Supported Cities
+
+- 🌍 **London** • **New York** • **Tokyo** • **Paris** • **Sydney**
+- 🏙️ **Berlin** • **Mumbai** • **Dubai** • **Singapore** • **Toronto**
+- 🇺🇸 **Los Angeles** • **Chicago** • **Miami**
+- 🌏 **Delhi** • **Shanghai**
+
+## 📦 Quick Start
+
+```bash
+# Clone and run locally
+git clone <repository-url>
+cd weather-dashboard
+npm install
+npm run dev
+
+# Visit http://localhost:5173
+```
+
+## 🏗️ Project Structure
+
+```
+src/
+├── components/
+│   ├── weather/          # Weather components
+│   │   ├── SearchBar.jsx
+│   │   ├── WeatherCard.jsx
+│   │   └── ForecastList.jsx
+│   └── ui/              # UI components
+│       ├── LoadingSpinner.jsx
+│       └── ErrorDisplay.jsx
+├── hooks/
+│   └── useWeather.js    # Custom hook
+├── api/
+│   └── weatherApi.js    # API integration
+├── utils/
+│   └── helpers.js       # Utilities
+└── App.jsx             # Main app
+```
+
+## 🎨 Key Components
+
+### `WeatherCard`
+- Current temperature and conditions
+- Humidity, wind speed, and pressure
+- Beautiful weather icons
+
+### `ForecastList`
+- 5-day weather forecast
+- High/low temperatures
+- Weather conditions
+
+### `SearchBar`
+- Intuitive city search
+- Real-time validation
+- Loading states
+
+## 🔧 Features Demonstrated
+
+- ✅ **React Component Architecture**
+- ✅ **State Management with Hooks**
+- ✅ **API Integration**
+- ✅ **Responsive Tailwind CSS Design**
+- ✅ **Error Handling**
+- ✅ **Loading States**
+- ✅ **Custom Hooks**
+
+## 🌟 Try It Out!
+
+1. **Visit** [https://weather-assignment-3.netlify.app/](https://weather-assignment-3.netlify.app/)
+2. **Search** for any supported city (e.g., "London", "Tokyo", "New York")
+3. **View** current weather and 5-day forecast
+4. **Explore** the responsive design on different devices
+
+## 📱 Responsive Design
+
+- **Mobile**: Clean single-column layout
+- **Tablet**: Optimized grid layouts
+- **Desktop**: Full-featured multi-column design
+
+## 🚀 Deployment
+
+This project is automatically deployed to **Netlify** with continuous deployment from the main branch.
+
+## 📄 Assignment Requirements Met
+
+- ✅ React project with Vite and Tailwind CSS
+- ✅ Reusable UI components
+- ✅ State management using React hooks
+- ✅ External API integration
+- ✅ Responsive styling with Tailwind CSS
+- ✅ Proper component architecture
+- ✅ Deployment with live URL
+
+## 🙏 Acknowledgments
+
+- [Open-Meteo](https://open-meteo.com/) for free weather data
+- [Tailwind CSS](https://tailwindcss.com/) for utility-first CSS
+- [Netlify](https://netlify.com/) for seamless deployment
+
+---
+
+**🔗 Live Demo: [https://weather-assignment-3.netlify.app/](https://weather-assignment-3.netlify.app/)**
+
+**Built with ❤️ using React and Tailwind CSS**
+
+---
+
+### 💡 Pro Tip
+Bookmark the live demo to quickly check weather conditions for your favorite cities! 🌤️
