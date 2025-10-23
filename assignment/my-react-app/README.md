@@ -1,5 +1,3 @@
-Perfect! Here's a polished README with your live link:
-
 # 🌤️ Weather Dashboard
 
 A beautiful, responsive weather application built with React.js and Tailwind CSS that provides real-time weather information for cities worldwide.
