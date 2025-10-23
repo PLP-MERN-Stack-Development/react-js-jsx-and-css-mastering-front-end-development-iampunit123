@@ -19,16 +19,13 @@ A beautiful, responsive weather application built with React.js and Tailwind CSS
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React 18, JSX
+- **Frontend:** React , JSX
 - **Styling:** Tailwind CSS
 - **Build Tool:** Vite
 - **API:** Open-Meteo (Free weather API)
 - **Icons:** Lucide React
 - **Deployment:** Netlify
 
-## 📸 Preview
-
-![Weather Dashboard Preview](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=Weather+Dashboard+Live+Demo)
 
 ## 🎯 Supported Cities
 
@@ -41,7 +38,7 @@ A beautiful, responsive weather application built with React.js and Tailwind CSS
 
 ```bash
 # Clone and run locally
-git clone <repository-url>
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-iampunit123.git
 cd weather-dashboard
 npm install
 npm run dev
