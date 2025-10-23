@@ -2,7 +2,6 @@
 
 A beautiful, responsive weather application built with React.js and Tailwind CSS that provides real-time weather information for cities worldwide.
 
-![Weather Dashboard](https://img.shields.io/badge/React-18.2.0-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC) ![Vite](https://img.shields.io/badge/Build-Vite-646CFF) ![Live](https://img.shields.io/badge/Live-Demo-brightgreen)
 
 ## 🚀 Live Application
 
